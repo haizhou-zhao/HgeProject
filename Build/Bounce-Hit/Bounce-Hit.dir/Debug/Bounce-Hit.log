@@ -1,0 +1,15 @@
+﻿Build started 10/18/2014 3:48:54 AM.
+     1>Project "D:\College\Project\HgeProject\Build\Bounce-Hit\Bounce-Hit.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\College\Project\HgeProject\Build\Bounce-Hit" /I"D:\College\Project\HgeProject\Bounce-Hit" /ID:\College\Project\HgeProject\3rdParty\libPNG /ID:\College\Project\HgeProject\3rdParty\zlib /ID:\College\Project\HgeProject\hge\core /ID:\College\Project\HgeProject\hge\helpers /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D PLATFORM_WINDOWS /D HGE_DIRECTX_VER=9 /D HGE_UNICODE= /D "CURRENT_INCLUDE_DIRS=D:\\College\\Project\\HgeProject\\Bounce-Hit" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Bounce-Hit.dir\Debug\\" /Fd"Bounce-Hit.dir\Debug\vc120.pdb" /Gd /TP /analyze- /FC /errorReport:prompt "..\..\Bounce-Hit\main.cpp"
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\College\Project\HgeProject\bin_debug\Bounce-Hit.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:/College/Project/HgeProject/lib /LIBPATH:D:/College/Project/HgeProject/lib/Debug /LIBPATH:"C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/lib" /LIBPATH:"C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/lib/Debug" /LIBPATH:"C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/lib/x86" /LIBPATH:"C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/lib/x86/Debug" /LIBPATH:"C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/lib/x64" /LIBPATH:"C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/lib/x64/Debug" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\lib\core.lib ..\..\lib\helpers.lib d3d9.lib d3dx9.lib winmm.lib ..\..\lib\zlib.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/College/Project/HgeProject/bin_debug/pdb/Debug/Bounce-Hit.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/College/Project/HgeProject/lib/Bounce-Hit.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug "Bounce-Hit.dir\Debug\Actor.obj"
+         "Bounce-Hit.dir\Debug\main.obj"
+         "Bounce-Hit.dir\Debug\PlayerController.obj"
+         Bounce-Hit.vcxproj -> D:\College\Project\HgeProject\bin_debug\Bounce-Hit.exe
+     1>Done Building Project "D:\College\Project\HgeProject\Build\Bounce-Hit\Bounce-Hit.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.13

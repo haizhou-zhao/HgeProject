@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{E60BCB79-8845-4326-B38C-5B033F6BF9AC}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>helpers</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\College\Project\HgeProject\lib\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">helpers.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">helpers</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\College\Project\HgeProject\lib\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">helpers.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">helpers</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\College\Project\HgeProject\lib\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">helpers.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">helpers</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\College\Project\HgeProject\lib\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">helpers.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">helpers</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\College\Project\HgeProject\Build\hge\helpers;D:\College\Project\HgeProject\hge\helpers;D:\College\Project\HgeProject\3rdParty\libPNG;D:\College\Project\HgeProject\3rdParty\zlib;D:\College\Project\HgeProject\Bounce-Hit;D:\College\Project\HgeProject\hge\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>true</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PLATFORM_WINDOWS;HGE_DIRECTX_VER=9;HGE_UNICODE=;CURRENT_INCLUDE_DIRS=D:\\College\\Project\\HgeProject\\hge\\helpers;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PLATFORM_WINDOWS;HGE_DIRECTX_VER=9;HGE_UNICODE=;CURRENT_INCLUDE_DIRS=D:\\College\\Project\\HgeProject\\hge\\helpers;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\College\Project\HgeProject\Build\hge\helpers;D:\College\Project\HgeProject\hge\helpers;D:\College\Project\HgeProject\3rdParty\libPNG;D:\College\Project\HgeProject\3rdParty\zlib;D:\College\Project\HgeProject\Bounce-Hit;D:\College\Project\HgeProject\hge\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\College\Project\HgeProject\Build\hge\helpers;D:\College\Project\HgeProject\hge\helpers;D:\College\Project\HgeProject\3rdParty\libPNG;D:\College\Project\HgeProject\3rdParty\zlib;D:\College\Project\HgeProject\Bounce-Hit;D:\College\Project\HgeProject\hge\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\College\Project\HgeProject\Build\hge\helpers;D:\College\Project\HgeProject\hge\helpers;D:\College\Project\HgeProject\3rdParty\libPNG;D:\College\Project\HgeProject\3rdParty\zlib;D:\College\Project\HgeProject\Bounce-Hit;D:\College\Project\HgeProject\hge\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>true</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PLATFORM_WINDOWS;HGE_DIRECTX_VER=9;HGE_UNICODE=;CURRENT_INCLUDE_DIRS=D:\\College\\Project\\HgeProject\\hge\\helpers;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PLATFORM_WINDOWS;HGE_DIRECTX_VER=9;HGE_UNICODE=;CURRENT_INCLUDE_DIRS=D:\\College\\Project\\HgeProject\\hge\\helpers;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\College\Project\HgeProject\Build\hge\helpers;D:\College\Project\HgeProject\hge\helpers;D:\College\Project\HgeProject\3rdParty\libPNG;D:\College\Project\HgeProject\3rdParty\zlib;D:\College\Project\HgeProject\Bounce-Hit;D:\College\Project\HgeProject\hge\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\College\Project\HgeProject\Build\hge\helpers;D:\College\Project\HgeProject\hge\helpers;D:\College\Project\HgeProject\3rdParty\libPNG;D:\College\Project\HgeProject\3rdParty\zlib;D:\College\Project\HgeProject\Bounce-Hit;D:\College\Project\HgeProject\hge\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\College\Project\HgeProject\Build\hge\helpers;D:\College\Project\HgeProject\hge\helpers;D:\College\Project\HgeProject\3rdParty\libPNG;D:\College\Project\HgeProject\3rdParty\zlib;D:\College\Project\HgeProject\Bounce-Hit;D:\College\Project\HgeProject\hge\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>true</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PLATFORM_WINDOWS;HGE_DIRECTX_VER=9;HGE_UNICODE=;CURRENT_INCLUDE_DIRS=D:\\College\\Project\\HgeProject\\hge\\helpers;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PLATFORM_WINDOWS;HGE_DIRECTX_VER=9;HGE_UNICODE=;CURRENT_INCLUDE_DIRS=D:\\College\\Project\\HgeProject\\hge\\helpers;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\College\Project\HgeProject\Build\hge\helpers;D:\College\Project\HgeProject\hge\helpers;D:\College\Project\HgeProject\3rdParty\libPNG;D:\College\Project\HgeProject\3rdParty\zlib;D:\College\Project\HgeProject\Bounce-Hit;D:\College\Project\HgeProject\hge\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\College\Project\HgeProject\Build\hge\helpers;D:\College\Project\HgeProject\hge\helpers;D:\College\Project\HgeProject\3rdParty\libPNG;D:\College\Project\HgeProject\3rdParty\zlib;D:\College\Project\HgeProject\Bounce-Hit;D:\College\Project\HgeProject\hge\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\College\Project\HgeProject\Build\hge\helpers;D:\College\Project\HgeProject\hge\helpers;D:\College\Project\HgeProject\3rdParty\libPNG;D:\College\Project\HgeProject\3rdParty\zlib;D:\College\Project\HgeProject\Bounce-Hit;D:\College\Project\HgeProject\hge\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>true</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PLATFORM_WINDOWS;HGE_DIRECTX_VER=9;HGE_UNICODE=;CURRENT_INCLUDE_DIRS=D:\\College\\Project\\HgeProject\\hge\\helpers;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PLATFORM_WINDOWS;HGE_DIRECTX_VER=9;HGE_UNICODE=;CURRENT_INCLUDE_DIRS=D:\\College\\Project\\HgeProject\\hge\\helpers;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\College\Project\HgeProject\Build\hge\helpers;D:\College\Project\HgeProject\hge\helpers;D:\College\Project\HgeProject\3rdParty\libPNG;D:\College\Project\HgeProject\3rdParty\zlib;D:\College\Project\HgeProject\Bounce-Hit;D:\College\Project\HgeProject\hge\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\College\Project\HgeProject\Build\hge\helpers;D:\College\Project\HgeProject\hge\helpers;D:\College\Project\HgeProject\3rdParty\libPNG;D:\College\Project\HgeProject\3rdParty\zlib;D:\College\Project\HgeProject\Bounce-Hit;D:\College\Project\HgeProject\hge\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\hge\helpers\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/College/Project/HgeProject/hge/helpers/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/College/Project/HgeProject -BD:/College/Project/HgeProject/Build --check-stamp-file D:\College\Project\HgeProject\Build\hge\helpers\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/College/Project/HgeProject/hge/helpers/CMakeLists.txt;D:\College\Project\HgeProject\hge\helpers\CMakeLists.txt;C:\Users\Haizhou\Documents\GitHub\CMake\GenerateVcxprojUserSettings.cmake;C:\Users\Haizhou\Documents\GitHub\CMake\UserTemplate.template;D:\College\Project\HgeProject\hge\helpers\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\College\Project\HgeProject\Build\hge\helpers\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/College/Project/HgeProject/hge/helpers/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/College/Project/HgeProject -BD:/College/Project/HgeProject/Build --check-stamp-file D:\College\Project\HgeProject\Build\hge\helpers\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/College/Project/HgeProject/hge/helpers/CMakeLists.txt;D:\College\Project\HgeProject\hge\helpers\CMakeLists.txt;C:\Users\Haizhou\Documents\GitHub\CMake\GenerateVcxprojUserSettings.cmake;C:\Users\Haizhou\Documents\GitHub\CMake\UserTemplate.template;D:\College\Project\HgeProject\hge\helpers\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\College\Project\HgeProject\Build\hge\helpers\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/College/Project/HgeProject/hge/helpers/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/College/Project/HgeProject -BD:/College/Project/HgeProject/Build --check-stamp-file D:\College\Project\HgeProject\Build\hge\helpers\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/College/Project/HgeProject/hge/helpers/CMakeLists.txt;D:\College\Project\HgeProject\hge\helpers\CMakeLists.txt;C:\Users\Haizhou\Documents\GitHub\CMake\GenerateVcxprojUserSettings.cmake;C:\Users\Haizhou\Documents\GitHub\CMake\UserTemplate.template;D:\College\Project\HgeProject\hge\helpers\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\College\Project\HgeProject\Build\hge\helpers\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/College/Project/HgeProject/hge/helpers/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/College/Project/HgeProject -BD:/College/Project/HgeProject/Build --check-stamp-file D:\College\Project\HgeProject\Build\hge\helpers\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/College/Project/HgeProject/hge/helpers/CMakeLists.txt;D:\College\Project\HgeProject\hge\helpers\CMakeLists.txt;C:\Users\Haizhou\Documents\GitHub\CMake\GenerateVcxprojUserSettings.cmake;C:\Users\Haizhou\Documents\GitHub\CMake\UserTemplate.template;D:\College\Project\HgeProject\hge\helpers\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\College\Project\HgeProject\Build\hge\helpers\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\hge\helpers\hgeanim.h" />
+    <ClInclude Include="..\..\..\hge\helpers\hgecolor.h" />
+    <ClInclude Include="..\..\..\hge\helpers\hgedistort.h" />
+    <ClInclude Include="..\..\..\hge\helpers\hgefont.h" />
+    <ClInclude Include="..\..\..\hge\helpers\hgegui.h" />
+    <ClInclude Include="..\..\..\hge\helpers\hgeguictrls.h" />
+    <ClInclude Include="..\..\..\hge\helpers\hgeparticle.h" />
+    <ClInclude Include="..\..\..\hge\helpers\hgerect.h" />
+    <ClInclude Include="..\..\..\hge\helpers\hgeresource.h" />
+    <ClInclude Include="..\..\..\hge\helpers\hgesprite.h" />
+    <ClInclude Include="..\..\..\hge\helpers\hgestrings.h" />
+    <ClInclude Include="..\..\..\hge\helpers\hgevector.h" />
+    <ClInclude Include="..\..\..\hge\helpers\parser.h" />
+    <ClInclude Include="..\..\..\hge\helpers\resources.h" />
+    <ClCompile Include="..\..\..\hge\helpers\hgeanim.cpp"  />
+    <ClCompile Include="..\..\..\hge\helpers\hgecolor.cpp"  />
+    <ClCompile Include="..\..\..\hge\helpers\hgedistort.cpp"  />
+    <ClCompile Include="..\..\..\hge\helpers\hgefont.cpp"  />
+    <ClCompile Include="..\..\..\hge\helpers\hgegui.cpp"  />
+    <ClCompile Include="..\..\..\hge\helpers\hgeguictrls.cpp"  />
+    <ClCompile Include="..\..\..\hge\helpers\hgeparticle.cpp"  />
+    <ClCompile Include="..\..\..\hge\helpers\hgepmanager.cpp"  />
+    <ClCompile Include="..\..\..\hge\helpers\hgerect.cpp"  />
+    <ClCompile Include="..\..\..\hge\helpers\hgeresource.cpp"  />
+    <ClCompile Include="..\..\..\hge\helpers\hgesprite.cpp"  />
+    <ClCompile Include="..\..\..\hge\helpers\hgestrings.cpp"  />
+    <ClCompile Include="..\..\..\hge\helpers\hgevector.cpp"  />
+    <ClCompile Include="..\..\..\hge\helpers\parser.cpp"  />
+    <ClCompile Include="..\..\..\hge\helpers\resources.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/College/Project/HgeProject/Build/ZERO_CHECK.vcxproj">
+      <Project>5147543D-EB46-45C5-B1C0-2607AF5C7045</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

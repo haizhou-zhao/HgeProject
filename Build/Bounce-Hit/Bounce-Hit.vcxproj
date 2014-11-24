@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{A4900B7A-209D-45D2-8226-9143FA3490DD}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>Bounce-Hit</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\College\Project\HgeProject\bin_debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Bounce-Hit.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Bounce-Hit</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\College\Project\HgeProject\bin\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Bounce-Hit.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Bounce-Hit</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\College\Project\HgeProject\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Bounce-Hit.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Bounce-Hit</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\College\Project\HgeProject\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Bounce-Hit.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Bounce-Hit</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\College\Project\HgeProject\Build\Bounce-Hit;D:\College\Project\HgeProject\Bounce-Hit;D:\College\Project\HgeProject\3rdParty\libPNG;D:\College\Project\HgeProject\3rdParty\zlib;D:\College\Project\HgeProject\hge\core;D:\College\Project\HgeProject\hge\helpers;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>true</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PLATFORM_WINDOWS;HGE_DIRECTX_VER=9;HGE_UNICODE=;CURRENT_INCLUDE_DIRS=D:\\College\\Project\\HgeProject\\Bounce-Hit;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PLATFORM_WINDOWS;HGE_DIRECTX_VER=9;HGE_UNICODE=;CURRENT_INCLUDE_DIRS=D:\\College\\Project\\HgeProject\\Bounce-Hit;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\College\Project\HgeProject\Build\Bounce-Hit;D:\College\Project\HgeProject\Bounce-Hit;D:\College\Project\HgeProject\3rdParty\libPNG;D:\College\Project\HgeProject\3rdParty\zlib;D:\College\Project\HgeProject\hge\core;D:\College\Project\HgeProject\hge\helpers;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\College\Project\HgeProject\Build\Bounce-Hit;D:\College\Project\HgeProject\Bounce-Hit;D:\College\Project\HgeProject\3rdParty\libPNG;D:\College\Project\HgeProject\3rdParty\zlib;D:\College\Project\HgeProject\hge\core;D:\College\Project\HgeProject\hge\helpers;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\core.lib;..\..\lib\helpers.lib;d3d9.lib;d3dx9.lib;winmm.lib;..\..\lib\zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/College/Project/HgeProject/lib;D:/College/Project/HgeProject/lib/$(Configuration);;C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/lib;C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/lib/$(Configuration);;C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/lib/x86;C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/lib/x86/$(Configuration);;C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/lib/x64;C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>D:/College/Project/HgeProject/lib/Bounce-Hit.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/College/Project/HgeProject/bin_debug/pdb/Debug/Bounce-Hit.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\College\Project\HgeProject\Build\Bounce-Hit;D:\College\Project\HgeProject\Bounce-Hit;D:\College\Project\HgeProject\3rdParty\libPNG;D:\College\Project\HgeProject\3rdParty\zlib;D:\College\Project\HgeProject\hge\core;D:\College\Project\HgeProject\hge\helpers;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>true</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PLATFORM_WINDOWS;HGE_DIRECTX_VER=9;HGE_UNICODE=;CURRENT_INCLUDE_DIRS=D:\\College\\Project\\HgeProject\\Bounce-Hit;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PLATFORM_WINDOWS;HGE_DIRECTX_VER=9;HGE_UNICODE=;CURRENT_INCLUDE_DIRS=D:\\College\\Project\\HgeProject\\Bounce-Hit;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\College\Project\HgeProject\Build\Bounce-Hit;D:\College\Project\HgeProject\Bounce-Hit;D:\College\Project\HgeProject\3rdParty\libPNG;D:\College\Project\HgeProject\3rdParty\zlib;D:\College\Project\HgeProject\hge\core;D:\College\Project\HgeProject\hge\helpers;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\College\Project\HgeProject\Build\Bounce-Hit;D:\College\Project\HgeProject\Bounce-Hit;D:\College\Project\HgeProject\3rdParty\libPNG;D:\College\Project\HgeProject\3rdParty\zlib;D:\College\Project\HgeProject\hge\core;D:\College\Project\HgeProject\hge\helpers;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\core.lib;..\..\lib\helpers.lib;d3d9.lib;d3dx9.lib;winmm.lib;..\..\lib\zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/College/Project/HgeProject/lib;D:/College/Project/HgeProject/lib/$(Configuration);;C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/lib;C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/lib/$(Configuration);;C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/lib/x86;C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/lib/x86/$(Configuration);;C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/lib/x64;C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>D:/College/Project/HgeProject/lib/Bounce-Hit.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/College/Project/HgeProject/bin_debug/pdb/Release/Bounce-Hit.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\College\Project\HgeProject\Build\Bounce-Hit;D:\College\Project\HgeProject\Bounce-Hit;D:\College\Project\HgeProject\3rdParty\libPNG;D:\College\Project\HgeProject\3rdParty\zlib;D:\College\Project\HgeProject\hge\core;D:\College\Project\HgeProject\hge\helpers;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>true</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PLATFORM_WINDOWS;HGE_DIRECTX_VER=9;HGE_UNICODE=;CURRENT_INCLUDE_DIRS=D:\\College\\Project\\HgeProject\\Bounce-Hit;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PLATFORM_WINDOWS;HGE_DIRECTX_VER=9;HGE_UNICODE=;CURRENT_INCLUDE_DIRS=D:\\College\\Project\\HgeProject\\Bounce-Hit;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\College\Project\HgeProject\Build\Bounce-Hit;D:\College\Project\HgeProject\Bounce-Hit;D:\College\Project\HgeProject\3rdParty\libPNG;D:\College\Project\HgeProject\3rdParty\zlib;D:\College\Project\HgeProject\hge\core;D:\College\Project\HgeProject\hge\helpers;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\College\Project\HgeProject\Build\Bounce-Hit;D:\College\Project\HgeProject\Bounce-Hit;D:\College\Project\HgeProject\3rdParty\libPNG;D:\College\Project\HgeProject\3rdParty\zlib;D:\College\Project\HgeProject\hge\core;D:\College\Project\HgeProject\hge\helpers;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\MinSizeRel\core.lib;..\..\lib\MinSizeRel\helpers.lib;d3d9.lib;d3dx9.lib;winmm.lib;..\..\lib\MinSizeRel\zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/College/Project/HgeProject/lib;D:/College/Project/HgeProject/lib/$(Configuration);;C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/lib;C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/lib/$(Configuration);;C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/lib/x86;C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/lib/x86/$(Configuration);;C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/lib/x64;C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>D:/College/Project/HgeProject/lib/MinSizeRel/Bounce-Hit.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/College/Project/HgeProject/bin_debug/pdb/MinSizeRel/Bounce-Hit.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\College\Project\HgeProject\Build\Bounce-Hit;D:\College\Project\HgeProject\Bounce-Hit;D:\College\Project\HgeProject\3rdParty\libPNG;D:\College\Project\HgeProject\3rdParty\zlib;D:\College\Project\HgeProject\hge\core;D:\College\Project\HgeProject\hge\helpers;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>true</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PLATFORM_WINDOWS;HGE_DIRECTX_VER=9;HGE_UNICODE=;CURRENT_INCLUDE_DIRS=D:\\College\\Project\\HgeProject\\Bounce-Hit;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PLATFORM_WINDOWS;HGE_DIRECTX_VER=9;HGE_UNICODE=;CURRENT_INCLUDE_DIRS=D:\\College\\Project\\HgeProject\\Bounce-Hit;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\College\Project\HgeProject\Build\Bounce-Hit;D:\College\Project\HgeProject\Bounce-Hit;D:\College\Project\HgeProject\3rdParty\libPNG;D:\College\Project\HgeProject\3rdParty\zlib;D:\College\Project\HgeProject\hge\core;D:\College\Project\HgeProject\hge\helpers;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\College\Project\HgeProject\Build\Bounce-Hit;D:\College\Project\HgeProject\Bounce-Hit;D:\College\Project\HgeProject\3rdParty\libPNG;D:\College\Project\HgeProject\3rdParty\zlib;D:\College\Project\HgeProject\hge\core;D:\College\Project\HgeProject\hge\helpers;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\RelWithDebInfo\core.lib;..\..\lib\RelWithDebInfo\helpers.lib;d3d9.lib;d3dx9.lib;winmm.lib;..\..\lib\RelWithDebInfo\zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/College/Project/HgeProject/lib;D:/College/Project/HgeProject/lib/$(Configuration);;C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/lib;C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/lib/$(Configuration);;C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/lib/x86;C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/lib/x86/$(Configuration);;C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/lib/x64;C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>D:/College/Project/HgeProject/lib/RelWithDebInfo/Bounce-Hit.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/College/Project/HgeProject/bin_debug/pdb/RelWithDebInfo/Bounce-Hit.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\Bounce-Hit\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/College/Project/HgeProject/Bounce-Hit/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/College/Project/HgeProject -BD:/College/Project/HgeProject/Build --check-stamp-file D:\College\Project\HgeProject\Build\Bounce-Hit\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/College/Project/HgeProject/Bounce-Hit/CMakeLists.txt;D:\College\Project\HgeProject\Bounce-Hit\CMakeLists.txt;C:\Users\Haizhou\Documents\GitHub\CMake\GenerateVcxprojUserSettings.cmake;C:\Users\Haizhou\Documents\GitHub\CMake\UserTemplate.template;D:\College\Project\HgeProject\Bounce-Hit\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\College\Project\HgeProject\Build\Bounce-Hit\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/College/Project/HgeProject/Bounce-Hit/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/College/Project/HgeProject -BD:/College/Project/HgeProject/Build --check-stamp-file D:\College\Project\HgeProject\Build\Bounce-Hit\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/College/Project/HgeProject/Bounce-Hit/CMakeLists.txt;D:\College\Project\HgeProject\Bounce-Hit\CMakeLists.txt;C:\Users\Haizhou\Documents\GitHub\CMake\GenerateVcxprojUserSettings.cmake;C:\Users\Haizhou\Documents\GitHub\CMake\UserTemplate.template;D:\College\Project\HgeProject\Bounce-Hit\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\College\Project\HgeProject\Build\Bounce-Hit\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/College/Project/HgeProject/Bounce-Hit/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/College/Project/HgeProject -BD:/College/Project/HgeProject/Build --check-stamp-file D:\College\Project\HgeProject\Build\Bounce-Hit\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/College/Project/HgeProject/Bounce-Hit/CMakeLists.txt;D:\College\Project\HgeProject\Bounce-Hit\CMakeLists.txt;C:\Users\Haizhou\Documents\GitHub\CMake\GenerateVcxprojUserSettings.cmake;C:\Users\Haizhou\Documents\GitHub\CMake\UserTemplate.template;D:\College\Project\HgeProject\Bounce-Hit\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\College\Project\HgeProject\Build\Bounce-Hit\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/College/Project/HgeProject/Bounce-Hit/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/College/Project/HgeProject -BD:/College/Project/HgeProject/Build --check-stamp-file D:\College\Project\HgeProject\Build\Bounce-Hit\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/College/Project/HgeProject/Bounce-Hit/CMakeLists.txt;D:\College\Project\HgeProject\Bounce-Hit\CMakeLists.txt;C:\Users\Haizhou\Documents\GitHub\CMake\GenerateVcxprojUserSettings.cmake;C:\Users\Haizhou\Documents\GitHub\CMake\UserTemplate.template;D:\College\Project\HgeProject\Bounce-Hit\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\College\Project\HgeProject\Build\Bounce-Hit\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Bounce-Hit\Actor.h" />
+    <ClInclude Include="..\..\Bounce-Hit\Delegate.h" />
+    <ClInclude Include="..\..\Bounce-Hit\PlayerController.h" />
+    <ClInclude Include="..\..\Bounce-Hit\VarArgDelegate.h" />
+    <ClInclude Include="..\..\Bounce-Hit\xvec.h" />
+    <ClCompile Include="..\..\Bounce-Hit\Actor.cpp"  />
+    <ClCompile Include="..\..\Bounce-Hit\main.cpp"  />
+    <ClCompile Include="..\..\Bounce-Hit\PlayerController.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/College/Project/HgeProject/Build/ZERO_CHECK.vcxproj">
+      <Project>5147543D-EB46-45C5-B1C0-2607AF5C7045</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/College/Project/HgeProject/Build/hge/core/core.vcxproj">
+      <Project>29F9D5BC-3157-401F-BD4B-90A9D9C99D68</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/College/Project/HgeProject/Build/hge/helpers/helpers.vcxproj">
+      <Project>E60BCB79-8845-4326-B38C-5B033F6BF9AC</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/College/Project/HgeProject/Build/3rdParty/zlib/zlib.vcxproj">
+      <Project>F827640B-4E7D-4B6B-8688-9EC2B26A8BB2</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

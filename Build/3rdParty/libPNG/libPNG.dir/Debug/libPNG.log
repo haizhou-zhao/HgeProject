@@ -1,0 +1,73 @@
+﻿Build started 10/4/2014 2:12:07 PM.
+     1>Project "D:\College\Project\HgeProject\Build\3rdParty\libPNG\libPNG.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule D:/College/Project/HgeProject/3rdParty/libPNG/CMakeLists.txt
+         CMake does not need to re-run because D:\College\Project\HgeProject\Build\3rdParty\libPNG\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\College\Project\HgeProject\Build\3rdParty\libPNG /ID:\College\Project\HgeProject\3rdParty\libPNG /ID:\College\Project\HgeProject\3rdParty\zlib /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D PLATFORM_WINDOWS /D HGE_DIRECTX_VER=9 /D HGE_UNICODE= /D CURRENT_INCLUDE_DIRS=D:\\College\\Project\\HgeProject\\3rdParty\\libPNG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"libPNG.dir\Debug\\" /Fd"libPNG.dir\Debug\vc120.pdb" /Gd /TC /analyze- /FC /errorReport:prompt ..\..\..\3rdParty\libPNG\example.c ..\..\..\3rdParty\libPNG\png.c ..\..\..\3rdParty\libPNG\pngerror.c ..\..\..\3rdParty\libPNG\pngget.c ..\..\..\3rdParty\libPNG\pngmem.c ..\..\..\3rdParty\libPNG\pngpread.c ..\..\..\3rdParty\libPNG\pngread.c ..\..\..\3rdParty\libPNG\pngrio.c ..\..\..\3rdParty\libPNG\pngrtran.c ..\..\..\3rdParty\libPNG\pngrutil.c ..\..\..\3rdParty\libPNG\pngset.c ..\..\..\3rdParty\libPNG\pngtest.c ..\..\..\3rdParty\libPNG\pngtrans.c ..\..\..\3rdParty\libPNG\pngwio.c ..\..\..\3rdParty\libPNG\pngwrite.c ..\..\..\3rdParty\libPNG\pngwtran.c ..\..\..\3rdParty\libPNG\pngwutil.c
+         example.c
+         png.c
+         pngerror.c
+         pngget.c
+         pngmem.c
+         pngpread.c
+         pngread.c
+     1>d:\college\project\hgeproject\3rdparty\libpng\pngread.c(1461): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\college\project\hgeproject\3rdparty\libpng\pngread.c(1477): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(168) : see declaration of 'strerror'
+         pngrio.c
+         pngrtran.c
+         pngrutil.c
+         pngset.c
+         pngtest.c
+     1>d:\college\project\hgeproject\3rdparty\libpng\pngtest.c(855): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\college\project\hgeproject\3rdparty\libpng\pngtest.c(861): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\college\project\hgeproject\3rdparty\libpng\pngtest.c(1286): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+     1>d:\college\project\hgeproject\3rdparty\libpng\pngtest.c(1468): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+     1>d:\college\project\hgeproject\3rdparty\libpng\pngtest.c(1588): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\college\project\hgeproject\3rdparty\libpng\pngtest.c(1594): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+         pngtrans.c
+         pngwio.c
+         pngwrite.c
+     1>d:\college\project\hgeproject\3rdparty\libpng\pngwrite.c(471): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\time.inl(99) : see declaration of 'gmtime'
+     1>d:\college\project\hgeproject\3rdparty\libpng\pngwrite.c(2379): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\college\project\hgeproject\3rdparty\libpng\pngwrite.c(2407): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(168) : see declaration of 'strerror'
+     1>d:\college\project\hgeproject\3rdparty\libpng\pngwrite.c(2420): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(168) : see declaration of 'strerror'
+         pngwtran.c
+         pngwutil.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\College\Project\HgeProject\lib\libPNG.lib" /NOLOGO libPNG.dir\Debug\example.obj
+         libPNG.dir\Debug\png.obj
+         libPNG.dir\Debug\pngerror.obj
+         libPNG.dir\Debug\pngget.obj
+         libPNG.dir\Debug\pngmem.obj
+         libPNG.dir\Debug\pngpread.obj
+         libPNG.dir\Debug\pngread.obj
+         libPNG.dir\Debug\pngrio.obj
+         libPNG.dir\Debug\pngrtran.obj
+         libPNG.dir\Debug\pngrutil.obj
+         libPNG.dir\Debug\pngset.obj
+         libPNG.dir\Debug\pngtest.obj
+         libPNG.dir\Debug\pngtrans.obj
+         libPNG.dir\Debug\pngwio.obj
+         libPNG.dir\Debug\pngwrite.obj
+         libPNG.dir\Debug\pngwtran.obj
+         libPNG.dir\Debug\pngwutil.obj
+         libPNG.vcxproj -> D:\College\Project\HgeProject\lib\libPNG.lib
+     1>Done Building Project "D:\College\Project\HgeProject\Build\3rdParty\libPNG\libPNG.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.99
